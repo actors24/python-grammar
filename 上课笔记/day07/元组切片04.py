@@ -1,0 +1,10 @@
+t1 = ('hailong',18,True,'female','haodi',19,'xiaofeng',21,'shandong')
+
+# print(t1[1:5]) # (18, True, 'female', 'haodi')
+print(t1[1:]) # (18, True, 'female', 'haodi', 19, 'xiaofeng', 21, 'shandong')
+print(t1[:]) # ('hailong', 18, True, 'female', 'haodi', 19, 'xiaofeng', 21, 'shandong')
+print(t1[::2]) #('hailong', True, 'haodi', 'xiaofeng', 'shandong')
+print(t1[::-1]) #('shandong', 21, 'xiaofeng', 19, 'haodi', 'female', True, 18, 'hailong')
+print(t1[-1:-5:-1]) #('shandong', 21, 'xiaofeng', 19)
+print(t1[-5:-1]) #('haodi', 19, 'xiaofeng', 21)
+print(t1)
