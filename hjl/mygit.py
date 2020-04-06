@@ -4,3 +4,7 @@ def hello():
 
 def hello1():
     pass
+
+
+def hello2():
+    pass
